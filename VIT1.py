@@ -17,10 +17,10 @@ cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='')
-ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki)
-ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
+#ki = LineClient(authToken='')
+#ki.log("Auth Token : " + str(ki.authToken))
+#channel1 = LineChannel(ki)
+#ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient(authToken='')
 #kk.log("Auth Token : " + str(kk.authToken))
@@ -55,7 +55,7 @@ admin = ["uf0bd4970771f26a8cef66473d59bcc69"]
 staff = ["uf0bd4970771f26a8cef66473d59bcc69"]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
+#Amid = ki.getProfile().mid
 #Bmid = kk.getProfile().mid
 #Cmid = kc.getProfile().mid
 #Dmid = km.getProfile().mid
@@ -75,7 +75,7 @@ welcome = []
 msg_dict = {}
 msg_dict1 = {}
 
-responsename1 = ki.getProfile().displayName
+#responsename1 = ki.getProfile().displayName
 #responsename2 = kk.getProfile().displayName
 #responsename3 = kc.getProfile().displayName
 #responsename4 = km.getProfile().displayName
@@ -177,7 +177,7 @@ wait = {
     "Respontag":"ยังไม่ได้ตั้งค่า ตอบกลับอัตโนมัติ",
     "welcome":"ยินดีต้อนรับ..ครับ",
     "leave":"จะรีบออกไปไหน..ครับ",
-    "comment":"[SELF BOT]\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬]\nhttp://line.me/ti/p/9r-uE5EU09",
+    "comment":"[SELF BOT]\n[By.nu]\nhttp://line.me/ti/p/9r-uE5EU09",
     "message":"",
     }
 
@@ -626,7 +626,7 @@ def help():
                   "╠☬➣" + key + "Listbot\n" + \
                   "╠☬➣" + key + "Listadmin\n" + \
                   "╠☬➣" + key + "Listprotect\n" + \
-                  "\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬]\n http://line.me/ti/p/9r-uE5EU09\n"
+                  "\n[By.su☬]\n http://line.me/ti/p/9r-uE5EU09\n"
     return helpMessage
 
 def helpbot():
@@ -672,7 +672,7 @@ def helpbot():
                   "╠☬➣" + key + "Bot5up「Kirim fotonya」\n" + \
                   "╠☬➣" + key + "แจก:「Mid korban」「Jumlah」\n" + \
                   "╠☬➣" + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "\n[By.☬ധู้さန້ণق↔ധഖาໄฟ☬]\n http://line.me/ti/p/9r-uE5EU09\n"
+                  "\n[By.☬su☬]\n http://line.me/ti/p/9r-uE5EU09\n"
     return helpMessage1
 
 def bot(op):
